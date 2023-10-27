@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ApartmentCollection.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231027161836_createDataforApartment")]
-    partial class createDataforApartment
+    [Migration("20231027173038_initialize")]
+    partial class initialize
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -68,9 +68,9 @@ namespace ApartmentCollection.Migrations
                         new
                         {
                             ApartmentId = 1,
-                            CreatedDate = new DateTime(2023, 10, 27, 19, 48, 36, 55, DateTimeKind.Local).AddTicks(9401),
+                            CreatedDate = new DateTime(2023, 10, 27, 21, 0, 38, 275, DateTimeKind.Local).AddTicks(2442),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa.",
-                            ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa3.jpg",
+                            ImageUrl = "",
                             Meter = 550,
                             Name = "Royal Villa",
                             Occupancy = 4,
@@ -80,9 +80,9 @@ namespace ApartmentCollection.Migrations
                         new
                         {
                             ApartmentId = 2,
-                            CreatedDate = new DateTime(2023, 10, 27, 19, 48, 36, 55, DateTimeKind.Local).AddTicks(9412),
+                            CreatedDate = new DateTime(2023, 10, 27, 21, 0, 38, 275, DateTimeKind.Local).AddTicks(2453),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor sit.",
-                            ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa1.jpg",
+                            ImageUrl = "",
                             Meter = 550,
                             Name = "Premium Pool Villa",
                             Occupancy = 4,
@@ -92,9 +92,9 @@ namespace ApartmentCollection.Migrations
                         new
                         {
                             ApartmentId = 3,
-                            CreatedDate = new DateTime(2023, 10, 27, 19, 48, 36, 55, DateTimeKind.Local).AddTicks(9413),
+                            CreatedDate = new DateTime(2023, 10, 27, 21, 0, 38, 275, DateTimeKind.Local).AddTicks(2455),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa",
-                            ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa4.jpg",
+                            ImageUrl = "",
                             Meter = 750,
                             Name = "Luxury Pool Villa",
                             Occupancy = 4,
@@ -104,9 +104,9 @@ namespace ApartmentCollection.Migrations
                         new
                         {
                             ApartmentId = 4,
-                            CreatedDate = new DateTime(2023, 10, 27, 19, 48, 36, 55, DateTimeKind.Local).AddTicks(9415),
+                            CreatedDate = new DateTime(2023, 10, 27, 21, 0, 38, 275, DateTimeKind.Local).AddTicks(2456),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor.",
-                            ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa5.jpg",
+                            ImageUrl = "",
                             Meter = 900,
                             Name = "Diamond Villa",
                             Occupancy = 4,
@@ -116,9 +116,9 @@ namespace ApartmentCollection.Migrations
                         new
                         {
                             ApartmentId = 5,
-                            CreatedDate = new DateTime(2023, 10, 27, 19, 48, 36, 55, DateTimeKind.Local).AddTicks(9416),
+                            CreatedDate = new DateTime(2023, 10, 27, 21, 0, 38, 275, DateTimeKind.Local).AddTicks(2458),
                             Details = "Fusce 11 tincidunt maximus leo, sed scelerisque massa auctor",
-                            ImageUrl = "https://dotnetmastery.com/bluevillaimages/villa2.jpg",
+                            ImageUrl = "",
                             Meter = 1100,
                             Name = "Diamond Pool Villa",
                             Occupancy = 4,
